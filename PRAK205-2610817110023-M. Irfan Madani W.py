@@ -8,4 +8,4 @@ area: int = (base * height) / 2
 
 print(f"Alas = {base:.0f} cm")
 print(f"Tinggi = {height:.0f} cm")
-print(f"Luas = {area:.0f} cm")
+print(f"Luas = {area:.0f} cm^2")
