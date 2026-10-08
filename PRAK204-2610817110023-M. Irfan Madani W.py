@@ -1,5 +1,6 @@
 pi: float = 22.0 / 7.0
-radius, height = map(int, input().split())
+radius = int(input())
+height = int(input())
 
 volume: float = pi * (radius * radius) * height
 area: float = 2 * pi * radius * (radius + height)
