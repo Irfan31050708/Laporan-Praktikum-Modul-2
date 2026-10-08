@@ -1,6 +1,7 @@
 import math
 
-height, side = map(int, input().split()) 
+height = int(input())
+side = int(input())
 
 base: int = math.sqrt((side * side) - (height * height))
 perimeter: int = height + side + base
